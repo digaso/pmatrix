@@ -22,7 +22,7 @@ a,Pistacia lentiscus L.,.,2,1,+,1,3,2,2,1,,,Rhamnus alaternus L.,3,1,1,3,2,2,2,1
 ,Euphorbia transtagana Boiss.,.,.,.,.,.,.,.,.,.,,,Phillyrea latifolia L.,.,.,+,.,.,.,+,1,.,.,3,.,.,.,.,.,.,+,.,,,Salvia sclareoides Brot.,+,,,Leontodon taraxacoides (Vill.) Mérat subsp. hispidus (Roth) Kerguélen [sub],+,,,Arrhenatherum album (Vahl) W. D. Clayton,1,.,1,1,.,.,.,,,Lonicera implexa Aiton,.,.,+,1,+
 ,Rhaponticoides fraylensis (Sch. Bip. ex Nyman) M.V. Agab. & Greuter [sub],.,.,.,.,.,.,.,.,.,,,Phillyrea angustifolia L.,.,.,+,1,.,+,.,2,.,.,.,.,.,.,.,.,.,+,.,,,,,,,Geranium dissectum L.,+,,,Agrostis castellana Boiss. & Reut.,2,.,1,.,1,.,.,,,Brachypodium phoenicoides (L.) Roem. & Schult.,+,+,+,.,.
 ,Rhaponticoides africana (Lam.) M.V.Agab. & Greuter [sub],.,.,.,.,.,.,.,.,.,,,Hyacinthoides hispanica (Mill.) Rothm.,.,.,.,1,.,.,.,.,.,.,.,.,.,.,+,+,+,.,1,,,,,,,,,,,Cistus monspeliensis L.,.,2,.,2,+,.,.,,,Dactylis glomerata L. subsp. hispanica (Roth) Nyman,+,+,+,.,.
-,Centaurea crocata Franco,.,.,.,.,.,.,.,.,.,,,Quercus broteroi (Cout.) Rivas-Martínez,.,.,.,.,.,.,.,+,+,.,1,.,.,.,.,.,.,1,1,,,,,,,"Espírito-Santo, M.D.; Moreira, I.; Rodríguez González, P. 2005 Vegetation and Landscape of Serra de Montejunto Quercetea 7: T.TX5",,,,Cistus crispus L.,.,1,1,1,.,.,.,,,Origanum vulgare L. subsp. virens (Hoffmanns. & Link) Ietsw.,.,+,+,+,.
+,Centaurea crocata Franco,.,.,.,.,.,.,.,.,.,,,Quercus broteroi (Cout.) Rivas-Martínez,.,.,.,.,.,.,.,+,+,.,1,.,.,.,.,.,.,1,1,,,,,,,,,,,Cistus crispus L.,.,1,1,1,.,.,.,,,Origanum vulgare L. subsp. virens (Hoffmanns. & Link) Ietsw.,.,+,+,+,.
 ,Serratula alcalae Coss.,.,.,.,.,.,.,.,.,.,,,Anemone palmata L.,1,+,.,.,.,.,.,.,.,.,.,.,.,.,+,+,.,.,1,,,,,,,,,,,Thymus zygis Loefl. ex L. subsp. sylvestris (Hoffmanns. & Link) Cout. [sub],.,1,1,2,.,.,.,,,Euphorbia nicaeensis All. subsp. nicaeensis [sub],.,.,+,+,+
 ,Osyris quadripartita Salzm. ex Decne.,.,.,.,.,.,.,.,.,.,,,Scilla monophyllos Link,.,+,+,.,+,.,.,.,.,.,.,.,.,.,.,+,.,+,.,,,,,,,,,,,Helichrysum stoechas (L.) Moench,.,.,+,1,.,+,.,,,Rubus ulmifolius Schott,1,.,1,.,.
 ,Antirrhinum majus L. subsp. cirrhigerum (Ficalho) Franco [sub],.,.,.,.,.,.,.,.,.,,,Myrtus communis L.,.,.,.,.,.,2,.,+,2,.,.,.,.,.,.,.,.,2,.,,,,,,,,,,,Rosmarinus officinalis L.,.,.,.,.,+,.,+,,,Pinus pinea L.,.,.,.,1,1
@@ -153,4 +153,3 @@ m,Cladonia potentosa,.,.,.,.,.,.,.,.,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 m,Pycnocomom rutifolium,.,.,.,.,.,.,.,.,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Fraxinus angustifolia Vahl,.,1,1,.,.,.,.,.,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Asplenium billotii F.W. Schultz,.,.,.,.,.,.,.,.,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

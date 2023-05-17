@@ -32,7 +32,7 @@
 ,Cistus monspeliensis L.,.,1,.,1,1,,,Silene gracilis DC. [sub],+,,,Urginea fugax (Moris) Steinh. [sub],+,+,+,+,+,1,.,+,.,+,+,,,Rhamnus alaternus L.,2,1,.,1,.
 ,Aristolochia paucinervis Pomel,+,+,.,.,+,,,Geranium purpureum Vill.,+,,,Thymus zygis Loefl. ex L. subsp. sylvestris (Hoffmanns. & Link) Cout.,+,+,1,1,+,1,1,.,+,.,.,,,Smilax aspera L.,+,.,.,.,.
 ,Carlina corymbosa L. subsp. hispanica (Lam.) O. Bolòs & Vigo,+,+,.,+,.,,,,,,,Carex halleriana Asso [sub],+,+,.,+,.,1,+,+,+,.,+,,,Asparagus aphyllus L.,+,+,+,.,.
-,Tuberaria lignosa (Sweet) Samp. [sub],+,.,+,+,.,,,"Espírito-Santo, M.D.; Moreira, I.; Rodríguez González, P. 2005 Vegetation and Landscape of Serra de Montejunto Quercetea 7: T.T14",,,,Ulex airensis Espírito Santo & al.,.,.,1,+,1,2,.,+,1,+,.,,,Arisarum simorrhinum Durieu [sub],.,.,.,.,.
+,Tuberaria lignosa (Sweet) Samp. [sub],+,.,+,+,.,,,,,,,Ulex airensis Espírito Santo & al.,.,.,1,+,1,2,.,+,1,+,.,,,Arisarum simorrhinum Durieu [sub],.,.,.,.,.
 ,Centaurium erythraea Raf. subsp. erythraea,.,.,+,+,+,,,,,,,Brachypodium phoenicoides (L.) Roem. & Schult.,.,.,+,+,1,.,.,1,+,1,+,,,Phillyrea angustifolia L.,.,.,.,.,.
 ,Ajuga iva (L.) Schreb.,+,+,.,.,.,,,,,,,Cistus crispus L.,.,.,+,.,+,1,.,.,+,1,+,,,Asparagus acutifolius L.,.,.,.,.,.
 ,Pinus pinaster Aiton,+,.,+,.,.,,,,,,,Cistus monspeliensis L.,.,1,.,.,.,2,+,1,.,1,.,,,Jasminum fruticans L.,1,.,.,.,.
@@ -58,7 +58,7 @@
 ,Tulipa sylvestris L. subsp. australis (Link) Pamp.,.,.,.,.,+,,,,,,,Geranium purpureum Vill.,+,.,.,.,.,.,.,.,.,.,.,,,Lavandula pedunculata Cav. [sub],.,.,.,.,.
 ,Serratula baetica Boiss. ex DC. subsp. lusitanica Cantó,.,.,.,.,+,,,,,,,Origanum virens Hoffmanns. & Link,+,.,.,.,.,.,.,.,.,.,.,,,Cistus ladanifer L. [sub],.,.,.,.,.
 ,,,,,,,,,,,,,Aristolochia paucinervis Pomel,+,.,.,.,.,.,.,.,.,.,.,,,Genista hirsuta Vahl,.,.,.,.,.
-,"Ramos Teles, Rui Jorge 2005 Caracterização da flora e vegetação do Vale da Ribeira de Almoster Universidad de T.014",,,,,,,,,,,,Cynara humilis L.,.,+,.,.,.,.,.,.,.,.,.,,,Genista polyanthos R. Roem. ex Willk.,.,.,.,.,.
+,,,,,,,,,,,,,Cynara humilis L.,.,+,.,.,.,.,.,.,.,.,.,,,Genista polyanthos R. Roem. ex Willk.,.,.,.,.,.
 ,,,,,,,,,,,,,Lathyrus sylvestris L.,.,+,.,.,.,.,.,.,.,.,.,,,Crataegus monogyna Jacq. [sub],.,.,.,.,.
 ,,,,,,,,,,,,,Serratula acanthocoma,.,.,1,.,.,.,.,.,.,.,.,,,Cistus albidus L.,1,+,1,.,.
 ,,,,,,,,,,,,,Sanguisorba rupicola (Boiss. & Reut.) A. Braun & C. D. Bouché [sub],.,.,+,.,.,.,.,.,.,.,.,,,Teucrium lusitanicum Schreb.,.,.,.,.,.
@@ -70,7 +70,7 @@
 ,,,,,,,,,,,,,Cistus X_pulverulentus,.,.,.,.,.,1,.,.,.,.,.,,,Genista tounefortii,.,.,.,.,.
 ,,,,,,,,,,,,,Lonicera periclymenum L. subsp. hispanica (Boiss. & Reut.) Nyman [sub],.,.,.,.,.,.,.,+,.,.,.,,,Serratula baetica Boiss. ex DC. subsp. lusitanica Cantó [sub],.,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,Cheirolophus sempervirens (L.) Pomel,.,.,.,.,.
-,,,,,,,,,,,,,"Costa, J.C.; Capelo, J.; Espírito Santo, M.D.; Lousã, M. 2003 As comunidades de Asparago albi-Rhamnion oleoidis Rivas Goday ex Rivas-Martínez 1975 do Sector Divisório Português Quercetea 4: T.002",,,,,,,,,,,,,,Silene longicilia (Brot.) Otth,.,.,.,.,.
+,,,,,,,,,,,,,,,,,,,,,,,,,,,Silene longicilia (Brot.) Otth,.,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,Antirrhinum majus L. subsp. linkianum (Boiss. & Reut.) Rothm. [sub],.,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,Ulex jussiaei Webb,.,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,Jurinea humilis (Desf.) DC. [sub],.,.,.,.,.
@@ -153,6 +153,3 @@
 ,,,,,,,,,,,,,,,,,,,,,,,,,,m,Pycnocomom rutifolium,.,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,Fraxinus angustifolia Vahl,.,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,Asplenium billotii F.W. Schultz,.,.,.,.,.
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,"Capelo Gonçalves, J. 2007 Nemorum Transtaganae Descriptio. Sintaxonomia Numérica das Comunidades Florestais e Pré-Florestais do Baixo Alentejo. Tese de Doutoramento em Engenharia Florestal. Instituto Superior de Agronomia, Universidade Técnica de T.004",,,,,

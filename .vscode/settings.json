@@ -1,5 +1,11 @@
 {
   "python.linting.pylintEnabled": false,
   "python.linting.enabled": true,
-  "python.linting.pycodestyleEnabled": true
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.mypyEnabled": false,
+  "python.linting.pydocstyleEnabled": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none"
 }

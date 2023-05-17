@@ -1,4 +1,3 @@
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,1,2,3,4,5,6,7,,,,,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,,,1,2,,,,1,2,3,4,5,6,7,8,9
 ,Hedera helix L.,4,5,3,3,4,3,3,,,,Quercus robur L.,4,5,5,5,4,4,r,4,3,5,4,5,4,+,+,3,3,4,2,,Quercus robur L.,3,4,,,Quercus robur L.,5,4,4,1,4,2,1,2,1
 ,Lonicera periclymenum L.,1,2,1,2,1,2,1,,,,Ruscus aculeatus L.,3,2,+,+,1,3,+,1,.,+,2,+,+,1,.,1,1,2,2,,Castanea sativa Mill.,3,1,,,Linaria triornithophora (L.) Willd.,+,+,+,.,.,.,.,.,.
@@ -48,7 +47,7 @@
 ,Pulicaria odora (L.) Rchb.,.,.,.,1,.,.,.,,,,Simethis mattiazzii (Vand.) G. López & Ch.E. Jarvis,.,.,.,.,.,.,.,+,+,.,.,.,1,.,.,.,.,.,.,,Euphorbia hyberna L. [sub],.,+,,,Picris hieracioides L.,+,+,+,.,.,.,.,.,.
 ,Silene uniflora Roth,.,.,.,.,.,1,.,,,,Daboecia cantabrica (Huds.) K. Koch,.,.,.,.,.,.,.,+,.,.,.,.,.,+,+,.,.,.,.,,Dryopteris filix-mas (L.) Schott,.,r,,,Viburnum tinus L.,.,.,.,.,.,+,2,2,1
 ,Halimione portulacoides (L.) Aellen,+,.,.,.,.,.,.,,,,Calluna vulgaris (L.) Hull,.,.,.,.,.,.,.,+,.,.,.,.,.,+,.,.,.,.,.,,,,,,,Arbutus unedo L.,.,.,.,.,.,2,.,2,1
-,Leucanthemum vulgare Lam. subsp. crassifolium (Lange) Rouy [sub],.,.,.,+,.,.,.,,,,¿ Ulex minor Roth [sub],.,.,.,.,.,.,.,.,.,.,.,.,r,.,2,.,.,.,.,,"Izco, J.; Rodríguez-Dacal, C.; Sánchez, J.M. 1994 Análisis geobotánico de las Caldas de Lugo. Estudios sobre el Balneario de Lugo. Memoria de la Real Academia de Farmacia 20: T.008",,,,,Phillyrea latifolia L. [sub],.,.,.,.,.,+,+,.,(+)
+,Leucanthemum vulgare Lam. subsp. crassifolium (Lange) Rouy [sub],.,.,.,+,.,.,.,,,,¿ Ulex minor Roth [sub],.,.,.,.,.,.,.,.,.,.,.,.,r,.,2,.,.,.,.,,,,,,,Phillyrea latifolia L. [sub],.,.,.,.,.,+,+,.,(+)
 ,Crithmum maritimum L.,.,.,.,.,.,+,.,,,,Rosa canina L.,.,.,.,.,.,.,.,.,+,.,.,.,.,+,.,.,.,.,.,,,,,,,Rubia peregrina L.,.,.,.,.,.,(+),r,(+),.
 ,Armeria pubigera (Desf.) Boiss.,.,.,.,.,.,.,+,,,,Hieracium gr. umbellatum L. [sub],.,.,.,+,.,.,.,.,.,.,.,.,.,+,.,.,.,.,.,,,,,,,Laurus nobilis L.,.,.,.,.,.,(+),.,+,.
 ,Beta maritima L.,.,.,.,.,.,.,+,,,,Pinus pinaster Aiton,.,.,.,+,.,.,.,.,+,.,.,.,.,.,.,.,.,.,.,,,,,,,Ruscus aculeatus L.,2,2,2,.,r,2,2,2,2
@@ -82,7 +81,7 @@ p,Prunus spinosa L.,.,+,.,.,.,.,.,,,,¿ Carex pilulifera L. [sub],.,.,.,+,.,.,.,
 ,Vicia angustifolia L. [sub],.,.,.,.,.,+,.,,,,Geranium robertianum L.,.,.,.,.,.,.,.,.,.,.,.,.,.,1,.,.,.,.,.,,,,,,,Anthoxanthum amarum Brot.,.,2,.,.,r,.,.,.,.
 ,Arisarum vulgare Targ.-Tozz.,.,.,.,.,.,+,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dryopteris affinis (Lowe) Fraser-Jenk. subsp. borreri (Newman) Fraser-Jenk. [sub],.,.,.,.,.,.,2,+,.
 ,Carex pilulifera L.,.,.,.,.,.,1,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hypericum linariifolium Vahl [sub],.,2,.,.,.,.,.,.,+
-,Pinus pinaster Aiton,.,.,.,.,.,1,.,,,,"Amigo, J; Izco, J.; Guitián, J. et Romero M.I. 1998 'Reinterpretación del robledal termófilo galaico-portugués: Rusco aculeati-Querc. Lazaroa, 19: 85-98. T.003",,,,,,,,,,,,,,,,,,,,,,,,,,Corylus avellana L.,.,.,.,.,.,.,2,2,.
+,Pinus pinaster Aiton,.,.,.,.,.,1,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Corylus avellana L.,.,.,.,.,.,.,2,2,.
 ,Polypodium cambricum L.,.,.,.,.,.,1,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brachypodium sylvaticum (Huds.) P. Beauv. [sub],.,.,+,.,+,.,.,.,.
 ,Oxalis pes-caprea,.,.,.,.,.,1,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Lobelia urens L.,+,.,.,.,+,.,.,.,.
 ,Arundo donax L.,.,.,.,.,.,.,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Thapsia villosa L.,.,.,+,.,.,.,.,.,+
@@ -95,7 +94,7 @@ p,Prunus spinosa L.,.,+,.,.,.,.,.,,,,¿ Carex pilulifera L. [sub],.,.,.,+,.,.,.,
 ,Tradescantia fluminensis Vell.,.,.,.,.,.,.,+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,m,Scleropodium purum,.,.,+,2,.,+,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,m,Thuidium tamariscinum,.,.,.,+,.,+,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,m,Polytrichum formosum,.,.,+,.,.,+,.,.,.
-,"Rodríguez Guitián, Manuel A. ; Romero Franco, Rosa & Ramil Rego, Pablo 2007 Caracterización ecológica y florística de las comunidades lauroides del occidente de la Cornisa Cantábrica (Noroeste ibérico). Lazaroa, 28: T.004",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Acer monspessulanum L.,.,.,.,.,.,.,+,.,.
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Acer monspessulanum L.,.,.,.,.,.,.,+,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Adenocarpus complicatus (L.) J. Gay in Durieu,.,.,+,.,.,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Agrostis setarea,.,.,.,.,2,.,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Aira caryophyllea L.,.,.,.,.,.,.,.,.,+
@@ -169,5 +168,3 @@ p,Prunus spinosa L.,.,+,.,.,.,.,.,,,,¿ Carex pilulifera L. [sub],.,.,.,+,.,.,.,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,m,Dicranum scoparium,.,.,.,.,.,+,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,m,Stereodon cupressiforme,.,.,.,.,.,+,.,.,.
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,m,Peltigera canina,.,.,+,.,.,.,.,.,.
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Braun-Blanquet, J.; Pinto da Silva, A.R.; Rozeira, A.; Fontes, F.; (1956); Résultats de deux excursions géobotaniques à travers le Portugal septentrional et moyen. II. Chênaies à feuilles caduques (Quercion occidentale) et chênaies à feuilles persistantes (Quercion fagineae) au Portugal.; Agron. Lusit. 18",,,,,,,,,

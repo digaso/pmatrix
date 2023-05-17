@@ -1,44 +1,42 @@
-Viburno tini-Quercetum pseudococcifera,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,1,2,3,4,5,6,,,,,,,,,,,
-,Quercus pseudococcifera,3,4,5,5,5,4,,,,,1,2,,,,,
-,Paeonia broteri Boiss. & Reut. [sub],.,.,.,+,.,.,,,a,Quercus coccifera L.,5,3,,,,,
-,Hyacinthoides hispanica (Mill.) Rothm.,.,.,.,+,.,.,,,,Pistacia lentiscus L.,+,2,,,,,
-,Asparagus acutifolius L.,.,.,.,.,.,.,,,,Rubia peregrina L.,+,+,,,,,
-,Rhamnus lycioides L. subsp. oleoides (L.) Maire in Jahand. & Maire [sub],2,1,1,1,1,.,,,,Phillyrea angustifolia L.,+,+,,,,,
-,Asparagus aphyllus L.,2,1,1,.,.,.,,,,Phillyrea latifolia L. [sub],+,+,,,,,
-,Phlomis purpurea L.,.,+,+,2,1,+,,,,Arbutus unedo L.,(+),2,,,,,
-,Myrtus communis L.,1,1,2,1,2,1,,,,Myrtus communis L.,.,2,,,,,1
-,Avenella flexuosa (L.) Drejer [sub],+,1,+,.,.,.,,,,Rhamnus alaternus L.,.,+,,,,Quercus coccifera L.,5
-,Scilla monophyllos Link,1,1,2,2,1,1,,,,Smilax aspera L. [sub],.,+,,,,Viburnum tinus L.,3
-,Ruscus aculeatus L.,+,.,1,2,2,1,,,,Pulicaria odora (L.) Rchb.,+,.,,,,Arbutus unedo L.,1
-,Viburnum tinus L.,1,2,3,2,3,2,,,,Carex distachya Desf. [sub],+,.,,,,Phillyrea latifolia L. [sub],2
-,Asplenium onopteris L.,.,.,.,+,+,+,,,,Daphne gnidium L.,.,r,,,,Phillyrea angustifolia L.,1
-,Phillyrea latifolia L.,2,1,3,2,2,1,,,,Calamintha nepeta (L.) Savi [sub],+,r,,,,Smilax aspera L. [sub],2
-,Bellis sylvestris Cirillo,.,.,+,1,+,1,,,,Cistus monspeliensis L.,2,2,,,,Lonicera implexa Aiton,1
-,Smilax aspera L. [sub],1,+,+,1,1,1,,,,Brachypodium phoenicoides (L.) Roem. & Schult.,2,2,,,,Ruscus aculeatus L.,+
-,Rubia peregrina L. [sub],2,1,1,1,1,+,,,,Rosmarinus officinalis L.,+,2,,,,Pistacia lentiscus L.,2
-,Olea europaea L. subsp. sylvestris (Mill.) Hegi [sub],.,+,+,+,2,2,,,,Dactylis glomerata L. subsp. hispanica (Roth) Nyman,+,+,,,,Erica arborea L.,+
-,Daphne gnidium L.,.,1,1,.,.,.,,,,Lavandula stoechas L.,+,+,,,,Coronilla valentina L. subsp. glauca (L.) Batt. in Batt. & Trab. [sub],1
-,Selaginella denticulata (L.) Spring,.,.,.,3,3,2,,,,Sedum sediforme (Jacq.) Pau,+,+,,,,Myrtus communis L.,2
-,Arbutus unedo L.,2,2,1,1,+,1,,,,Cistus crispus L.,+,+,,,,Arisarum simorrhinum Durieu,1
-,Phillyrea angustifolia L.,1,1,+,+,1,1,,,,Urginea fugax (Moris) Steinh. [sub],+,(+),,,,Phillyrea latifolia L.,+
-,Lonicera implexa Aiton,.,.,.,2,1,1,,,,Erica arborea L.,2,.,,,,Bupleurum fruticosum L.,+
-,Anemone palmata L.,.,.,.,+,.,.,,,,Carex sp.,.,2,,,,Asplenium onopteris L.,+
-,Phillyrea latifolia L. [sub],.,.,.,.,.,2,,,,Carex halleriana Asso,+,.,,,,Rubia peregrina L. [sub],+
-,Pistacia lentiscus L.,2,2,1,1,2,1,,,,Trifolium campestre Schreb. in Sturm,+,.,,,,Tamus communis L.,+
-,Quercus coccifera L.,.,.,.,2,1,+,,,,Teucrium lusitanicum Schreb. [sub],+,.,,,,Rubus sp.,+
-,Rhamnus alaternus L.,2,2,1,.,.,.,,,,[sub],.,+,,,,,
-,Erica arborea L.,1,2,+,1,1,+,,,,Briza maxima L.,.,r,,,,"Rivas-Martínez, Salvador; Lousa, Mario; Díaz, Tomás E.; Fernández-González, Federico & Costa, José C. 1990 La vegetación del sur de Portugal (Sado, Alentejo y Algarve). Itinera Geobot., 3: T.T10",
-,Osyris alba L.,.,.,.,.,+,1,,,,Arrhenatherum sp.,.,r,,,,,
-,Teucrium pseudo-scorodonia Desf. [sub],.,.,.,+,.,.,,,,Bupleurum sp.,.,r,,,,,
-,Tamus communis L.,+,1,+,+,.,+,,,,Erica scoparia L.,.,r,,,,,
-,Crataegus monogyna Jacq. [sub],.,.,.,1,1,1,,,,Cistus ladanifer L. [sub],.,r,,,,,
-,Urginea fugax (Moris) Steinh. [sub],+,+,.,.,.,.,,,,Nothobartsia asperrima (Link) Benedí & Herrero [sub],.,+,,,,,
-,Calamintha nepeta (L.) Savi subsp. nepeta [sub],.,.,.,.,.,.,,,,Teucrium haenseleri Boiss.,.,(+),,,,,
+,,1,2,3,4,5,6,,,,,1,2,,,,,1
+,Quercus pseudococcifera,3,4,5,5,5,4,,,a,Quercus coccifera L.,5,3,,,,Quercus coccifera L.,5
+,Paeonia broteri Boiss. & Reut. [sub],.,.,.,+,.,.,,,,Pistacia lentiscus L.,+,2,,,,Viburnum tinus L.,3
+,Hyacinthoides hispanica (Mill.) Rothm.,.,.,.,+,.,.,,,,Rubia peregrina L.,+,+,,,,Arbutus unedo L.,1
+,Asparagus acutifolius L.,.,.,.,.,.,.,,,,Phillyrea angustifolia L.,+,+,,,,Phillyrea latifolia L. [sub],2
+,Rhamnus lycioides L. subsp. oleoides (L.) Maire in Jahand. & Maire [sub],2,1,1,1,1,.,,,,Phillyrea latifolia L. [sub],+,+,,,,Phillyrea angustifolia L.,1
+,Asparagus aphyllus L.,2,1,1,.,.,.,,,,Arbutus unedo L.,(+),2,,,,Smilax aspera L. [sub],2
+,Phlomis purpurea L.,.,+,+,2,1,+,,,,Myrtus communis L.,.,2,,,,Lonicera implexa Aiton,1
+,Myrtus communis L.,1,1,2,1,2,1,,,,Rhamnus alaternus L.,.,+,,,,Ruscus aculeatus L.,+
+,Avenella flexuosa (L.) Drejer [sub],+,1,+,.,.,.,,,,Smilax aspera L. [sub],.,+,,,,Pistacia lentiscus L.,2
+,Scilla monophyllos Link,1,1,2,2,1,1,,,,Pulicaria odora (L.) Rchb.,+,.,,,,Erica arborea L.,+
+,Ruscus aculeatus L.,+,.,1,2,2,1,,,,Carex distachya Desf. [sub],+,.,,,,Coronilla valentina L. subsp. glauca (L.) Batt. in Batt. & Trab. [sub],1
+,Viburnum tinus L.,1,2,3,2,3,2,,,,Daphne gnidium L.,.,r,,,,Myrtus communis L.,2
+,Asplenium onopteris L.,.,.,.,+,+,+,,,,Calamintha nepeta (L.) Savi [sub],+,r,,,,Arisarum simorrhinum Durieu,1
+,Phillyrea latifolia L.,2,1,3,2,2,1,,,,Cistus monspeliensis L.,2,2,,,,Phillyrea latifolia L.,+
+,Bellis sylvestris Cirillo,.,.,+,1,+,1,,,,Brachypodium phoenicoides (L.) Roem. & Schult.,2,2,,,,Bupleurum fruticosum L.,+
+,Smilax aspera L. [sub],1,+,+,1,1,1,,,,Rosmarinus officinalis L.,+,2,,,,Asplenium onopteris L.,+
+,Rubia peregrina L. [sub],2,1,1,1,1,+,,,,Dactylis glomerata L. subsp. hispanica (Roth) Nyman,+,+,,,,Rubia peregrina L. [sub],+
+,Olea europaea L. subsp. sylvestris (Mill.) Hegi [sub],.,+,+,+,2,2,,,,Lavandula stoechas L.,+,+,,,,Tamus communis L.,+
+,Daphne gnidium L.,.,1,1,.,.,.,,,,Sedum sediforme (Jacq.) Pau,+,+,,,,Rubus sp.,+
+,Selaginella denticulata (L.) Spring,.,.,.,3,3,2,,,,Cistus crispus L.,+,+,,,,,
+,Arbutus unedo L.,2,2,1,1,+,1,,,,Urginea fugax (Moris) Steinh. [sub],+,(+),,,,,
+,Phillyrea angustifolia L.,1,1,+,+,1,1,,,,Erica arborea L.,2,.,,,,,
+,Lonicera implexa Aiton,.,.,.,2,1,1,,,,Carex sp.,.,2,,,,,
+,Anemone palmata L.,.,.,.,+,.,.,,,,Carex halleriana Asso,+,.,,,,,
+,Phillyrea latifolia L. [sub],.,.,.,.,.,2,,,,Trifolium campestre Schreb. in Sturm,+,.,,,,,
+,Pistacia lentiscus L.,2,2,1,1,2,1,,,,Teucrium lusitanicum Schreb. [sub],+,.,,,,,
+,Quercus coccifera L.,.,.,.,2,1,+,,,,[sub],.,+,,,,,
+,Rhamnus alaternus L.,2,2,1,.,.,.,,,,Briza maxima L.,.,r,,,,,
+,Erica arborea L.,1,2,+,1,1,+,,,,Arrhenatherum sp.,.,r,,,,,
+,Osyris alba L.,.,.,.,.,+,1,,,,Bupleurum sp.,.,r,,,,,
+,Teucrium pseudo-scorodonia Desf. [sub],.,.,.,+,.,.,,,,Erica scoparia L.,.,r,,,,,
+,Tamus communis L.,+,1,+,+,.,+,,,,Cistus ladanifer L. [sub],.,r,,,,,
+,Crataegus monogyna Jacq. [sub],.,.,.,1,1,1,,,,Nothobartsia asperrima (Link) Benedí & Herrero [sub],.,+,,,,,
+,Urginea fugax (Moris) Steinh. [sub],+,+,.,.,.,.,,,,Teucrium haenseleri Boiss.,.,(+),,,,,
+,Calamintha nepeta (L.) Savi subsp. nepeta [sub],.,.,.,.,.,.,,,,,,,,,,,
 ,Umbilicus rupestris (Salisb.) Dandy in Ridd. & al.,+,.,+,+,+,.,,,,,,,,,,,
 ,Lonicera periclymenum L. subsp. hispanica (Boiss. & Reut.) Nyman [sub],.,.,1,.,.,.,,,,,,,,,,,
-,Thapsia villosa L.,+,+,.,+,+,.,,,,"Braun-Blanquet, J.; Pinto da Silva, A.R.; Rozeira, A.; Fontes, F. 1956 Résultats de deux excursions géobotaniques à travers le Portugal septentrional et moyen. II. Chênaies à feuilles caduques (Quercion occidentale) et chênaies à feuilles persistantes (Quercion fagineae) au Portugal. Agron. Lusit. 18 (3): T.T16",,,,,,,
+,Thapsia villosa L.,+,+,.,+,+,.,,,,,,,,,,,
 ,Geranium purpureum Vill.,+,.,+,.,.,.,,,,,,,,,,,
 ,Sedum forsterianum Sm. in Sowerby [sub],.,.,.,1,+,1,,,,,,,,,,,
 ,Vicia angustifolia L. [sub],.,.,.,.,.,.,,,,,,,,,,,
@@ -57,6 +55,3 @@ m,Homalothecium sp.,+,1,.,.,.,.,,,,,,,,,,,
 ,Adenocarpus telonensis (Loisel.) DC. in Lam. & DC.,.,.,.,.,+,+,,,,,,,,,,,
 ,Carex divulsa Stokes in With.,.,.,.,+,.,+,,,,,,,,,,,
 ,Alium neapolitanum,.,.,.,2,1,1,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,"Capelo Gonçalves, J.; (2007); Nemorum Transtaganae Descriptio. Sintaxonomia Numérica das Comunidades Florestais e Pré-Florestais do Baixo Alentejo.; Tese de Doutoramento em Engenharia Florestal. Instituto Superior de Agronomia, Universidade Técnica de",,,,,,,,,,,,,,,,,
