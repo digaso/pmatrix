@@ -15,6 +15,12 @@ def main():
         li.append(df)
 
     new_df = pd.DataFrame()
+    killers_df = pd.read_csv("killer_species.csv")
+    killers = []
+
+    for index, row in killers_df.iterrows():
+        killers.append((row["zone"], row["specie"]))
+    print(killers)
     species = []
 
     for i, df in enumerate(li):
@@ -30,13 +36,13 @@ def main():
         if i > 0:
             break
 
-        data = get_data(species, df, new_df)
+        data = get_data(species, df, new_df, killers)
 
-    print(new_df)
+    # print(new_df)
     # print(df.Name, start_tables_index)
     # print(df.Name, end_tables_index)
     # print(df.Name, last_species_index)
-    # new_df.to_excel('output.xlsx', index=False)
+    # new_df.to_excel("output.xlsx", index=False)
 
 
 main()
