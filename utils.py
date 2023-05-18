@@ -1,6 +1,14 @@
 import pandas as pd
 
 
+def treat_string(specie_name):
+    specie_name = str(specie_name).replace("\xa0", " ")
+    specie_name = str(specie_name).replace(" [sub]", "")
+    specie_name = str(specie_name).replace("¿ ", "")
+    specie_name = str(specie_name).strip()
+    return specie_name
+
+
 def find_species_column(df: pd.DataFrame, i: int) -> int:
     unnamed_count = 0
     for index, column in enumerate(df):
@@ -15,7 +23,7 @@ def find_species_column(df: pd.DataFrame, i: int) -> int:
     return -1
 
 
-def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame) -> pd.DataFrame:
+def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers):
     data = []
     start_tables_index = get_species_index(df, 0)
     end_tables_index = get_last_species_index(df)
@@ -24,14 +32,10 @@ def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame) -> pd.DataFr
     print(df.Name, start_tables_index)
     print(df.Name, end_tables_index)
     print(df.Name, last_species_index)
-    for i, start in enumerate(start_tables_index):
-        
-        for j in range(last_species_index[i] + 1):
-            for end in range(start + 1, end_tables_index[i] + 1):
-                for item in df.iloc[j]:
-                    pass
 
-    return new_df
+    print(df.iloc[0, start_tables_index[0] : end_tables_index[0] + 1])
+
+    return data
 
 
 def get_unique_index(species, wanted):
@@ -59,10 +63,7 @@ def get_species(df: pd.DataFrame):
     for index in tables_index:
         column = df.columns[index]
         for specie in df[column]:
-            specie = str(specie).replace("\xa0", " ")
-            specie = str(specie).replace(" [sub]", "")
-            specie = str(specie).replace("¿ ", "")
-            specie = str(specie).strip()
+            specie = treat_string(specie)
             if species.count(specie) == 0 and specie != "nan":
                 species.append(specie)
     return species
@@ -94,13 +95,14 @@ def find_last_species(df: pd.DataFrame):
     last_species_index = []
     for i in tables_index:
         column = df.columns[i]
+        added = False
         for index, row in enumerate(df[column]):
-            if str(row) != "nan" and df[column].size - 1 != index:
-                continue
-            else:
+            if not (str(row) != "nan" and df[column].size != index):
                 last_species_index.append(index)
+                added = True
                 break
-
+        if not added:
+            last_species_index.append(df[column].size)
     return last_species_index
 
 
