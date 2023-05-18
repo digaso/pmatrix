@@ -1,3 +1,12 @@
-Qc,Qr,Qs,Qb,VtQp,Qf,Qp,Ql
-Quercus coccifera L.,Quercus rotundifolia Lam.,Quercus suber L.,Quercus robur L.,Quercus pseudococcifera, Quercus broteroi (Cout.) Rivas-Martínez, Quercus pyrenaica Willd., Quercus lusitanica Lam.
-,,,,Quercus coccifera L.,Quercus faginea Lam.,,
+specie,zone
+Quercus coccifera L.,Qc
+Quercus rotundifolia Lam.,Qr
+Quercus suber L.,Qs
+Quercus robur L.,Qb
+Quercus pseudococcifera,VtQp
+Quercus broteroi (Cout.) Rivas-Martínez,Qf
+Quercus pyrenaica Willd.,Qp
+Quercus lusitanica Lam.,Ql
+Quercus coccifera L.,VtQp
+Quercus faginea Lam.,Qf
+
