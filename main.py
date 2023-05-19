@@ -16,11 +16,12 @@ def main():
 
     new_df = pd.DataFrame()
     killers_df = pd.read_csv("killer_species.csv")
-    killers = []
+    killers = dict()
 
     for index, row in killers_df.iterrows():
-        killers.append((row["zone"], row["specie"]))
-    print(killers)
+        if not killers.keys().__contains__(row["zone"]):
+            killers[row["zone"]] = []
+        killers[row["zone"]].append(row["specie"])
     species = []
 
     for i, df in enumerate(li):

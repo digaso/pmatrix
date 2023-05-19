@@ -23,7 +23,7 @@ def find_species_column(df: pd.DataFrame, i: int) -> int:
     return -1
 
 
-def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers):
+def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers: dict):
     data = []
     start_tables_index = get_species_index(df, 0)
     end_tables_index = get_last_species_index(df)
@@ -33,13 +33,25 @@ def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers):
     print(df.Name, end_tables_index)
     print(df.Name, last_species_index)
 
-    print(df.iloc[0, start_tables_index[0] : end_tables_index[0] + 1])
+    print(df.iloc[0, start_tables_index[0] + 1 : end_tables_index[0] + 1])
+    specie = start_tables_index[0]
+    specie_index = get_unique_index(species, specie)
+    df_zone = get_df_zone(df, killers)
+    zone_killers = killers[df_zone]
 
-    return data
+    return new_df
+
+
+def get_df_zone(df: pd.DataFrame, killers: dict):
+    df_name = df.Name
+    for name in killers.keys():
+        if name in df_name:
+            return name
+    return "NaN"
 
 
 def get_unique_index(species, wanted):
-    for i, specie in species:
+    for i, specie in enumerate(species):
         if specie == wanted:
             return i
     return -1
