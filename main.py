@@ -34,16 +34,16 @@ def main():
 
     new_df["Species"] = species
     for i, df in enumerate(li):
-        if i > 0:
+        if i > 50:
             break
 
-        data = get_data(species, df, new_df, killers)
+        new_df = get_data(species, df, new_df, killers)
 
-    # print(new_df)
+    print(new_df)
     # print(df.Name, start_tables_index)
     # print(df.Name, end_tables_index)
     # print(df.Name, last_species_index)
-    # new_df.to_excel("output.xlsx", index=False)
+    new_df.to_excel("output.xlsx", index=False)
 
 
 main()

@@ -1,3 +1,4 @@
+from numpy import nan
 import pandas as pd
 
 
@@ -24,7 +25,8 @@ def find_species_column(df: pd.DataFrame, i: int) -> int:
 
 
 def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers: dict):
-    data = []
+    df_zone = get_df_zone(df, killers)
+    zone_killers = killers[df_zone]
     start_tables_index = get_species_index(df, 0)
     end_tables_index = get_last_species_index(df)
     last_species_index = find_last_species(df)
@@ -33,12 +35,30 @@ def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers: dic
     print(df.Name, end_tables_index)
     print(df.Name, last_species_index)
 
-    print(df.iloc[0, start_tables_index[0] + 1 : end_tables_index[0] + 1])
-    specie = start_tables_index[0]
-    specie_index = get_unique_index(species, specie)
-    df_zone = get_df_zone(df, killers)
-    zone_killers = killers[df_zone]
+    for index, start in enumerate(start_tables_index):
+        for i in range(end_tables_index[index] - start):
+            count = 1
+            data = []
+            for _ in range(len(species)):
+                data.append(".")
+            tmp = df[df.columns[start + 1 + i]]
+            flag = False
 
+            for index1, dado in enumerate(tmp):
+                specie_name = treat_string(df.iloc[index1, start])
+                if specie_name == "nan":
+                    break
+                specie_id = get_unique_index(species, specie_name)
+                if specie_name in zone_killers:
+                    if dado == "+" or dado == "x" or dado == "." or dado == "r":
+                        flag = True
+                        break
+                    elif int(dado) < 3:
+                        flag = True
+                        break
+                data[specie_id] = dado
+            if not flag:
+                new_df[df.Name + str(index + 1) + "." + str(i + 1)] = data
     return new_df
 
 
