@@ -40,9 +40,8 @@ def main():
         new_df = get_data(species, df, new_df, killers)
 
     print(new_df)
-    # print(df.Name, start_tables_index)
-    # print(df.Name, end_tables_index)
-    # print(df.Name, last_species_index)
+
+    new_df = new_df.sort_values(by=["Species"])
     new_df.to_excel("output.xlsx", index=False)
 
 

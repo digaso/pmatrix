@@ -37,7 +37,6 @@ def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers: dic
 
     for index, start in enumerate(start_tables_index):
         for i in range(end_tables_index[index] - start):
-            count = 1
             data = []
             for _ in range(len(species)):
                 data.append(".")
