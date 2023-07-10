@@ -1,4 +1,5 @@
-from numpy import nan
+from hmac import new
+from numpy import column_stack, nan
 import pandas as pd
 
 
@@ -24,16 +25,19 @@ def find_species_column(df: pd.DataFrame, i: int) -> int:
     return -1
 
 
-def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers: dict):
+def get_data(
+    species: list,
+    df: pd.DataFrame,
+    new_df: pd.DataFrame,
+    killers: dict,
+    new_taxonomy=pd.DataFrame(),
+    _kill=True,
+):
     df_zone = get_df_zone(df, killers)
     zone_killers = killers[df_zone]
     start_tables_index = get_species_index(df, 0)
     end_tables_index = get_last_species_index(df)
     last_species_index = find_last_species(df)
-
-    print(df.Name, start_tables_index)
-    print(df.Name, end_tables_index)
-    print(df.Name, last_species_index)
 
     for index, start in enumerate(start_tables_index):
         for i in range(end_tables_index[index] - start):
@@ -45,10 +49,11 @@ def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers: dic
 
             for index1, dado in enumerate(tmp):
                 specie_name = treat_string(df.iloc[index1, start])
+                specie_name = get_new_name(specie_name, new_taxonomy)
                 if specie_name == "nan":
                     break
                 specie_id = get_unique_index(species, specie_name)
-                if specie_name in zone_killers:
+                if specie_name in zone_killers and _kill:
                     if dado == "+" or dado == "x" or dado == "." or dado == "r":
                         flag = True
                         break
@@ -56,7 +61,7 @@ def get_data(species: list, df: pd.DataFrame, new_df: pd.DataFrame, killers: dic
                         flag = True
                         break
                 data[specie_id] = dado
-            if not flag:
+            if not flag or _kill is False:
                 new_df[df.Name + str(index + 1) + "." + str(i + 1)] = data
     return new_df
 
@@ -87,7 +92,24 @@ def get_species_index(df, i):
     return tables_index
 
 
-def get_species(df: pd.DataFrame):
+def get_new_name(specie: str, new_taxonomy: pd.DataFrame) -> str:
+    new_specie = specie
+    good_names = new_taxonomy[new_taxonomy.columns[0]].tolist()
+    new_taxonomy = new_taxonomy.drop(columns=[new_taxonomy.columns[0]])
+    if good_names.count(specie) > 0:
+        return specie
+    for i in range(0, len(good_names)):
+        if (
+            specie == new_taxonomy[new_taxonomy.columns[0]][i]
+            or specie == new_taxonomy[new_taxonomy.columns[1]][i]
+            or specie == new_taxonomy[new_taxonomy.columns[2]][i]
+        ):
+            new_specie = good_names[i]
+            break
+    return new_specie
+
+
+def get_species(df: pd.DataFrame, new_taxonomy: pd.DataFrame):
     tables_index = []
     species = []
     tables_index = get_species_index(df, 0)
@@ -95,6 +117,8 @@ def get_species(df: pd.DataFrame):
         column = df.columns[index]
         for specie in df[column]:
             specie = treat_string(specie)
+            specie = get_new_name(specie, new_taxonomy)
+
             if species.count(specie) == 0 and specie != "nan":
                 species.append(specie)
     return species
