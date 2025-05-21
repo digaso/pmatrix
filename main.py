@@ -56,10 +56,10 @@ def main():
     li = []
     all_files.sort(key=sort_lower_case)
     for file in all_files:
-        if not file.endswith(".csv"):
+        if not file.endswith(".xlsx"):
             continue
-        df = pd.read_csv("data/" + file)
-        df.Name = file.replace(".csv", "")
+        df = pd.read_excel("data/" + file)
+        df.Name = file.replace(".xlsx", "")
         li.append(df)
     killers_df = pd.read_csv("killer_species.csv")
     killers = dict()

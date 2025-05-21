@@ -4,6 +4,8 @@ import pandas as pd
 
 
 def treat_string(specie_name):
+    if specie_name == "Quercus lusitanica":
+        return "Quercus lusitanica Lam."
     specie_name = str(specie_name).replace("\xa0", " ")
     specie_name = str(specie_name).replace(" [sub]", "")
     specie_name = str(specie_name).replace("¿ ", "")
